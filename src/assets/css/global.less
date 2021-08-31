@@ -1,0 +1,89 @@
+// 公用样式
+#app {
+  .ant-table-body tbody tr:nth-child(2n-1) {
+    background-color: white;
+  }
+
+  .ant-table-body tbody tr:nth-child(2n) {
+    background-color: #f7f7f7;
+  }
+
+  .ant-table-thead>tr>th {
+    background-color: #C1D7EC;
+  }
+
+  .search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0;
+    width: 100%;
+    min-height: 60px;
+    background: #ffffff;
+
+    >div {
+      display: flex;
+      flex-wrap: wrap;
+
+      >* {
+        margin-right: 20px;
+        margin-bottom: 10px;
+      }
+
+      >*:last-child {
+        margin-right: 0;
+      }
+    }
+
+    >div:last-child {
+      width: 168px;
+      flex-shrink: 0;
+    }
+  }
+
+  .ant-select {
+    .ant-select-selection--multiple {
+      .ant-select-selection__choice {
+        width: 60px;
+      }
+    }
+  }
+
+
+  .ant-btn-primary {
+    background-color: #0073C6;
+    border-color: #0073C6;
+  }
+}
+
+.ant-modal {
+  min-width: max-content;
+
+  .ant-btn-primary {
+    background-color: #0073C6;
+    border-color: #0073C6;
+  }
+}
+
+#app {
+  .ant-tabs-bar.ant-tabs-top-bar {
+    border: 0;
+  }
+
+  .ant-tabs-nav .ant-tabs-tab-active {
+    font-size: 16px;
+    color: #141934;
+  }
+}
+.schedule {
+  
+  .ant-select .ant-select-selection--multiple {
+    display: flex;
+    height: 32px;
+    overflow: hidden;
+
+    .ant-select-selection__rendered {
+      width: 100%;
+    }
+  }
+}
